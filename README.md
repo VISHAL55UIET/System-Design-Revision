@@ -44,6 +44,94 @@ I am implementing popular LLD problems that are frequently asked in product-base
 * Collections Framework
 * Multithreading (where applicable)
 
+* # SOLID Principles in Java
+
+This repository contains my learning and implementation of the **SOLID Principles**, which are the foundation of clean, maintainable, and scalable object-oriented software design.
+
+The goal is to understand not only the theory behind each principle but also how to apply them in real-world Java applications and Low-Level Design (LLD) interviews.
+
+## Principles Covered
+
+### 1. Single Responsibility Principle (SRP)
+
+A class should have only one reason to change.
+
+Files:
+
+* SRPFollowed.java
+* SRPViolated.java
+
+### 2. Open Closed Principle (OCP)
+
+Software entities should be open for extension but closed for modification.
+
+Files:
+
+* OCPFollowed.java
+* OCPViolated.java
+
+### 3. Liskov Substitution Principle (LSP)
+
+Objects of a superclass should be replaceable with objects of its subclasses without affecting correctness.
+
+Files:
+
+* LSPFollowed.java
+* LSPFollowedWrongly.java
+* LSPViolated.java
+
+### 4. Interface Segregation Principle (ISP)
+
+Clients should not be forced to depend on interfaces they do not use.
+
+Status:
+
+* Coming Soon
+
+### 5. Dependency Inversion Principle (DIP)
+
+High-level modules should depend on abstractions, not concrete implementations.
+
+Status:
+
+* Coming Soon
+
+## Why SOLID?
+
+SOLID principles help developers:
+
+* Write cleaner code
+* Improve maintainability
+* Reduce code duplication
+* Increase flexibility
+* Improve testability
+* Build scalable systems
+* Design better Low-Level Architectures
+
+## Tech Stack
+
+* Java
+* Object-Oriented Programming (OOP)
+* SOLID Principles
+
+## Learning Goal
+
+This repository serves as my personal revision notes and hands-on practice for:
+
+* Java Development
+* Software Engineering Fundamentals
+* Low-Level Design Interviews
+* SDE Interview Preparation
+
+## Author
+
+Vishal Singh
+
+B.Tech CSE (2023–2027)
+
+Learning Software Design one principle at a time.
+
+
 ## Repository Structure
 
 Each problem contains:
