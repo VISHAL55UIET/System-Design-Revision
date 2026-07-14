@@ -144,6 +144,56 @@ Each problem contains:
 * Time & Space Complexity
 * Possible Follow-up Questions
 
+* ## 🎟️ BookMyShow Low-Level Design (LLD)
+
+### Overview
+
+A simplified Java implementation of the core functionalities of a movie ticket booking system inspired by **BookMyShow**. The project demonstrates object-oriented design principles, relationships between entities, and seat booking with basic concurrency handling.
+
+### Features
+
+* Add movies and theaters
+* Create screens and movie shows
+* Search movies by city
+* Book multiple seats
+* Prevent double booking using synchronized seat locking
+* Maintain booking details for users
+
+### Tech Stack
+
+* Java
+* Object-Oriented Programming (OOP)
+* Collections Framework
+
+### Core Entities
+
+* **Movie** – Stores movie information.
+* **Theater** – Contains multiple movie shows.
+* **Screen** – Represents a screen with available seats.
+* **Seat** – Maintains seat availability and booking status.
+* **Show** – Connects a movie with a screen and show timing.
+* **User** – Represents the customer.
+* **Booking** – Stores confirmed booking details.
+* **BookingService** – Handles ticket booking logic.
+
+### Workflow
+
+1. User searches for a movie in a city.
+2. Available shows are displayed.
+3. User selects seats.
+4. Seats are locked and validated.
+5. Booking is confirmed if all selected seats are available.
+
+### Concepts Demonstrated
+
+* Object-Oriented Design
+* Encapsulation
+* Composition & Association
+* Service Layer Pattern
+* Concurrency using `synchronized`
+* Basic Low-Level System Design (LLD)
+
+
 ## Purpose
 
 This repository serves as:
