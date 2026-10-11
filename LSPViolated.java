@@ -47,7 +47,7 @@ class CurrentAccount implements Account {
         }
     }
 }
-class FixedTermAccount implements Account {
+public class FixedTermAccount implements Account {
     private double balance;
     public FixedTermAccount() {
         balance = 0;
