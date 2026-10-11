@@ -81,7 +81,7 @@ class BankClient {
     }
 }
 public class LSPViolated {
-    public static void main(String[] args) {
+    public  static void main(String[] args) {
         List<Account> accounts = new ArrayList<>();
         accounts.add(new SavingAccount());
         accounts.add(new CurrentAccount());
