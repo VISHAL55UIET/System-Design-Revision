@@ -47,10 +47,10 @@ class CurrentAccount implements Account {
         }
     }
 }
-public class FixedTermAccount implements Account {
+class FixedTermAccount implements Account {
     private double balance;
     public FixedTermAccount() {
-        balance = 0;
+        balance = 0; 
     }
     @Override
     public void deposit(double amount) {
