@@ -1,6 +1,6 @@
 # System Design Revision
 
-This repository contains my Low-Level Design (LLD) interview preparation journey.
+This repository contains my Low-Level Design (LLD) interview preparation journey
 
 I am implementing popular LLD problems that are frequently asked in product-based companies and MNC interviews. The goal is not only to understand the design but also to write production-quality Java code with proper object-oriented design principles.
 
